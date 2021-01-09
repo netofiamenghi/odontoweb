@@ -1,0 +1,43 @@
+input[type=text],
+input[type=search],
+input[type=email],
+input[type=url],
+input[type=number],
+input[type=date],
+input[type=file],
+input[type=password],
+textarea,
+option {
+    text-transform: uppercase;
+    color: #456583;
+}
+
+.login {
+    background: white !important;
+    color: #44A4B4;
+}
+
+.login a {
+    color: gray;
+}
+
+.visagendamento,
+#cad-agendamento {
+    display: block;
+}
+
+.formedit,
+#cad-paciente {
+    display: none;
+}
+
+.item-paciente {
+    color: #456583;
+    margin: 5px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.item-paciente:hover {
+    background: yellow;
+}
